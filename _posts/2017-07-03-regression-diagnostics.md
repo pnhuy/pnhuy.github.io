@@ -1,3 +1,9 @@
+---
+layout: post
+title: Regression diagnostics
+categories: machinelearning
+---
+
 # The Standard regression assumptions
 
 The properties of linear regression estimating are based on 4 assumptions below:
