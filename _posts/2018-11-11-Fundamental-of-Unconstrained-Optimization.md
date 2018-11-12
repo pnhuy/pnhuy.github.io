@@ -4,7 +4,6 @@ title: Fundamentals of Unconstrained Optimization
 subtitle: Notes on Numerical Optimization
 categories: optimization
 ---
-# Fundamentals of Unconstrained Optimization
 
 In unconstrained optimization, we minimize an objective function that depends on real variable, with no restriction:
 
