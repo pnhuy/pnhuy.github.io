@@ -62,7 +62,7 @@ If f is twice continuously differentiable, we may be able to tell that x* is a l
 
 > **Second-Order Sufficient Conditions**
 >
-> Suppose that $\nabla^2 f$ is continuous in an open neighborhood of x* and that $\nabla f(x^ *)=0$ and $\nabla^2 f(x^ *)$ is positive definite. Then x* is a strict *local minimizer* of $f$. 
+> Suppose that $\nabla^2 f$ is continuous in an open neighborhood of x* and that $\nabla f(x^ * ) = 0$ and $\nabla^2 f(x^ * ) $ is positive definite. Then x* is a strict *local minimizer* of $f$. 
 
 > **Theorem**
 >
