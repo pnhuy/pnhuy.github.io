@@ -21,7 +21,7 @@ The global minimizer can be difficult to find. And most algorithms are able to f
 
 This is sometimes called a *weak local minimizer*.
 
-> A point x* is a *strict local minimizer* (also called a strong local minimizer) if there is a neighborhood N of x* such that $f(x^*) < f(x), \forall x \in N$  with $x \ne x^*$.
+> A point x* is a *strict local minimizer* (also called a strong local minimizer) if there is a neighborhood N of x* such that $f(x^ *) < f(x), \forall x \in N$  with $x \ne x^ *$.
 
 A slightly more exotic type of local minimizer:
 

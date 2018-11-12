@@ -169,8 +169,14 @@ hr {
 
 .post-title {
   margin-top: 0;
-  margin-bottom: 1em;
+  margin-bottom: 0;
   color: $dark-gray-color;
+}
+.post-subtitle {
+  margin-top: 0;
+  margin-bottom: 1em;
+  color: #808080;
+  font-style: italic;
 }
 
 .post-link,
