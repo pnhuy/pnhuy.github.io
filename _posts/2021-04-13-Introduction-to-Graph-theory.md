@@ -55,8 +55,7 @@ A vertex is **pendant** if and only if it has degree one (adjacent to exactly on
 > Theorem
 > The handshaking theorem
 > Let $G=(V,E)$ be an undirected graph with $m$ edges:
-> 
-> $$2m=\sum_{v\in V}\deg(v)$$
+> $2m=\sum_{v\in V}\deg(v)$
 
 This theorem shows that the sum of the degrees of the vertices of an undirected graph is even, which lead to the below theorem.
 
@@ -70,8 +69,7 @@ In a graph with directed edges the **in-degree** of a vertex v, denoted by $\deg
 > **Theorem** 
 > 
 > Let $G=(V,E)$be a graph with directed edges:
-> 
-> *$$\sum_{v\in V}\deg^{-}(v)=\sum_{v\in V}\deg^{+}(v)=|E|$$*
+> $\sum_{v\in V}\deg^{-}(v)=\sum_{v\in V}\deg^{+}(v)=|E|$
 
 Some special simple graphs:
 -   Complete Graphs: a complete graph on n vertices, denoted by $K_{n}$, is a simple graph that contains exactly one edge between each pair of distinct vertices.
