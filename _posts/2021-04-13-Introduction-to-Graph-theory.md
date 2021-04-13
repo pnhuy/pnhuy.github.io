@@ -30,13 +30,13 @@ Directed graphs that may have **multiple directed edges** from a vertex to a sec
 A graph with both directed and undirected edges is called a **mixed graph**.
 
 Graphs are used in a wide variety of models:
-* Social networks
-* Communication networks
-* Information networks
-* Software design applications
-* Transportation networks
-* Biological networks
-* Tournaments
+-   Social networks
+-   Communication networks
+-   Information networks
+-   Software design applications
+-   Transportation networks
+-   Biological networks
+-   Tournaments
 
 # Terminology and special types of graph
 
@@ -54,7 +54,8 @@ A vertex is **pendant** if and only if it has degree one (adjacent to exactly on
 
 > Theorem
 > The handshaking theorem
-> Let $G=(V,E)$ be an undirected graph with $m$ edges. Then 
+> Let $G=(V,E)$ be an undirected graph with $m$ edges:
+> 
 > $$2m=\sum_{v\in V}\deg(v)$$
 
 This theorem shows that the sum of the degrees of the vertices of an undirected graph is even, which lead to the below theorem.
@@ -67,7 +68,9 @@ When $(u,v)$ is an edge of the graph G with directed edges, $u$ is said to be **
 In a graph with directed edges the **in-degree** of a vertex v, denoted by $\deg^{-}(v)$, is the number of edges with v as their terminal vertex. The **out-degree** of v, denoted by $\deg^{+}(v)$, is the number of edges with v as their initial vertex. (Note that a loop at a vertex contributes 1 to both the in-degree and the out-degree of this vertex.)
 
 > **Theorem** 
-> Let $G=(V,E)$be a graph with directed edges:*
+> 
+> Let $G=(V,E)$be a graph with directed edges:
+> 
 > *$$\sum_{v\in V}\deg^{-}(v)=\sum_{v\in V}\deg^{+}(v)=|E|$$*
 
 Some special simple graphs:
@@ -79,8 +82,9 @@ Some special simple graphs:
 
 A simple graph $G$ is called **bipartite** if its vertex set $V$ can be partitioned into two disjoint sets $V_{1}$ and $V_{2}$ such that every edge in the graph connects a vertex in $V_{1}$ and a vertex in $V_{2}$ (so that no edge in $G$ connects either two vertices in $V_{1}$ or two vertices in $V_{2}$). When this condition holds, we call the pair $(V_{1},V_{2})$ a bipartition of the vertex set $V$ of $G$.
 
-> **Theorem** A simple graph is bipartite if and only if it is possible to assign one of two different colors to each vertex of the graph so
-> that no two adjacent vertices are assigned the same color.
+> **Theorem** 
+> 
+> A simple graph is bipartite if and only if it is possible to assign one of two different colors to each vertex of the graph so that no two adjacent vertices are assigned the same color.
 
 A **complete bipartite graph** $K_{m,n}$ is a graph that has its vertex set partitioned into two subsets of $m$ and $n$ vertices, respectively with an edge between two vertices if and only if one vertex is in the first subset and the other vertex is in the second subset.
 
@@ -88,7 +92,7 @@ A **matching** $M$ in a simple graph $G=(V,E)$ is a subset of the set $E$ of edg
 
 A vertex that is the endpoint of an edge of a matching $M$ is said to be matched in $M$; otherwise it is said to be unmatched.
 
-A **maximum matching** is a matching with the largest number of edges. We say that a matching M in a bipartite graph $G=(V,E)$ with bipartition $(V_{1},V_{2})$ is a complete matching from $V_{1}$ to $V_{2}$ if every vertex in $V_{1}$ is the endpoint of an edge in the matching, or equivalently, if $|M|=|V1|$.
+A **maximum matching** is a matching with the largest number of edges. We say that a matching M in a bipartite graph $G=(V,E)$ with bipartition $(V_{1},V_{2})$ is a complete matching from $V_{1}$ to $V_{2}$ if every vertex in $V_{1}$ is the endpoint of an edge in the matching, or equivalently, if $\|M\|=\|V1\|$.
 
 > **Theorem**
 > Necessary and sufficient conditions for complete matching (Hall's marriage theorem)
